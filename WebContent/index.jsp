@@ -11,7 +11,7 @@
 		<h1>Allan's First Project With Github</h1>
 		<hr>
 		
-		<form action="MyServlet" method="post">
+		<form action="MyServlet" method="post" style="border:solid thick red;">
 			<table>
 				<tr>
 					<td>First Name</td>
