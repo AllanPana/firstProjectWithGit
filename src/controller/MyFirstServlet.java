@@ -22,16 +22,22 @@ public class MyFirstServlet extends HttpServlet {
 	}
 
 	protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+
 		response.setContentType("text/html");
 		PrintWriter out = response.getWriter();
 		String firstName = request.getParameter("firstName");
 		String lastName = request.getParameter("lastName");
+		String address = request.getParameter("address");
 		
 		out.println("<html><body>");
 		out.println("<h1>Hello from "+ request.getContextPath()+" </h1><hr>");
 		out.println("My name is "+ firstName + " " + lastName);
 		
 		out.println("</body></html>");
+
+		
+		
+
 	}
 
 }
