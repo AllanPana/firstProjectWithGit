@@ -6,10 +6,11 @@
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <title>Show Page</title>
 </head>
-<body bgcolor="cyan">
-	<h1>Welcome !!!</h1>
+<body bgcolor="cyan" style="border:solid blue; width: 617px">
+	<center>
+		<h1>Welcome !!!</h1>
 	
-	<table>
+	<table style="border:solid red">
 		<tr>
 			<td>First Name : </td>
 			<td>${requestScope.firstName}</td>
@@ -19,9 +20,10 @@
 			<td>${requestScope.lastName}</td>
 		</tr>
 		<tr>
-			<td>Address : </td>
+			<td>Address     : </td>
 			<td>${requestScope.address}</td>
 		</tr>
 	</table>
+	</center>
 </body>
 </html>
