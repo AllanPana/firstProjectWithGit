@@ -22,6 +22,10 @@
 					<td><input type="text" name="lastName"/></td>
 				</tr>
 				<tr>
+					<td>Address</td>
+					<td><input type="text" name="address"/></td>
+				</tr>
+				<tr>
 					<td colspan="2">
 						<center><input type="submit" value="Submit" style="width: 110px; height: 31px"></center>
 					</td>

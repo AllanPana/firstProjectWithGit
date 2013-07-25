@@ -6,7 +6,22 @@
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <title>Show Page</title>
 </head>
-<body>
+<body bgcolor="cyan">
 	<h1>Welcome !!!</h1>
+	
+	<table>
+		<tr>
+			<td>First Name : </td>
+			<td>${requestScope.firstName}</td>
+		</tr>
+		<tr>
+			<td>Last Name : </td>
+			<td>${requestScope.lastName}</td>
+		</tr>
+		<tr>
+			<td>Address : </td>
+			<td>${requestScope.address}</td>
+		</tr>
+	</table>
 </body>
 </html>
